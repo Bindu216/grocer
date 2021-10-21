@@ -616,7 +616,7 @@ section{
 
 .deal{
 
-  background:url(../images/deal-bg.jpg) no-repeat;
+  background:url(deal-bg.jpg) no-repeat;
 
   background-position: center;
 
@@ -756,7 +756,7 @@ section{
 
 .newsletter{
 
-  background:url(/storage/emulated/0/stylesheet/deal-bg.jpg) no-repeat;
+  background:url(deal-bg.jpg) no-repeat;
 
   background-size: cover;
 
