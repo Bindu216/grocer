@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Bootstrap Example</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="grocery.css">
+
+  </head>
+
+  <body>
+
+  <header>
+
+  <div class="header-1">
+
+  <a href="#" class="logo"><i class="fa fa-shopping-basket"></i>Grocery</a>
+
+  <form action="" class="search-box-container">
+
+  <input type="search" id="search-box" placeholder="search here...">
+
+  <label for="search-box" class="fa fa-search"></label>
+
+  </form>
+
+  </div>
+
+  <div class="header-2">
+
+  <div class="fa fa-bars" id="menu-bar"></div>
+
+  <nav class="navbar">
+
+  <a href="#home">Home</a>
+
+  <a href="#category">Category</a>
+
+  <a href="#product">Product</a>
+
+  <a href="#contact">Contact</a>
+
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> 
+
+  
+
+  
+
+  
+
+  <div id="id01" class="modal"> 
+
+  
+
+  
+
+  
+
+  <form class="modal-content animate" action="/action_page.php"> 
+
+  
+
+  <div class="imgcontainer"> 
+
+  
+
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span> 
+
+  
+
+  
+
+  
+
+  </div> 
+
+  
+
+  
+
+  
+
+  <div class="container"> 
+
+  
+
+  <label><b>Username</b></label> 
+
+  
+
+  <input type="text" placeholder="Enter Username" name="uname" required> 
+
+  
+
+  
+
+  
+
+  <label><b>Password</b></label> 
+
+  
+
+  <input type="password" placeholder="Enter Password" name="psw" required> 
+
+  
+
+  
+
+  
+
+  <button type="submit">Login</button> 
+
+  
+
+  <input type="checkbox" checked="checked"> Remember me 
+
+  
+
+  </div> 
+
+  
+
+  
+
+  
+
+  <div class="container" style="background-color:#f1f1f1"> 
+
+  
+
+  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> 
+
+  
+
+  <span class="psw">Forgot <a href="#">password?</a></span> 
+
+  
+
+  </div> 
+
+  
+
+  </form> 
+
+  
+
+  </div> 
+
+  </nav>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-shopping-cart"></a>
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-user-circle"></a>
+
+  </div>
+
+  </div>
+
+  </header>
+
+  <!--header section ends--->
+
+  <!---home section starts-->
+
+  <section class="home" id="home">
+
+  <div class="image">
+
+  <img src="home-img.png">
+
+  </div>
+
+  <div class="content">
+
+  <span>Fresh and organic</span>
+
+  <h3>Your daily need products</h3>
+
+  <a href="#" class="btn">Get started</a>
+
+  </div>
+
+  </section>
+
+  <!---home section ends--->
+
+  <!---banner section starts--->
+
+  <section class="banner-container">
+
+  <div class="banner">
+
+  <img src="/storage/emulated/0/stylesheet/banner-1.jpg">
+
+  <div class="content">
+
+  <h3>Special Offer</h3><br>
+
+  <span style="font-size:11px;">upto 45% offer</span><br>
+
+  <a href="#" class="btn">Check Out</a>
+
+  </div>
+
+  </div>
+
+  <div class="banner">
+
+  <img src="banner-2.jpg">
+
+  <div class="content">
+
+  <h3>Special Offer</h3><br>
+
+  <span style="font-size:11px;">upto 45% offer</span><br>
+
+  <a href="#" class="btn">Check Out</a>
+
+  </div>
+
+  </div>
+
+  </section>
+
+  <!--banner section end--->
+
+  <!---category section starts--->
+
+  <section class="category" id="category">
+
+  <h1 class="heading" style="background-color:#000000"><span>Shopping  Category</span> </h1>
+
+  <div class="box-container">
+
+  <div class="box">
+
+  <h3>Vegitables</h3>
+
+  <p>upto 50% off</p>
+
+  <img src="category-1.png">
+
+  <a href="#" class="btn">Shop Now</a>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <h3>Home Grocery</h3>
+
+  <p>upto 50% off</p>
+
+  <img src="22-53-10-images.jpg">
+
+  <a href="#" class="btn">Shop Now</a>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <h3>Meat</h3>
+
+  <p>upto 50% off</p>
+
+  <img src="category-3.png">
+
+  <a href="#" class="btn">Shop Now</a>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <h3>Fruits</h3>
+
+  <p>upto 50% off</p>
+
+  <img src="category-4.png">
+
+  <a href="#" class="btn">Shop Now</a>
+
+  </div>
+
+  </div>
+
+  </section>
+
+  <!---category section end--->
+
+  <!---product section starts--->
+
+  <section class="product" id="product">
+
+  <h1 class="heading" style="background-color:#000000"><span>Latest Products</span> </h1>
+
+  <div class="box-container">
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="product-2.png">
+
+  <h3>Organic Tomato</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹30 per kg<span>₹60 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-25-35-2Q==.jpg">
+
+  <h3>Carrots</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹45 per kg<span>₹90 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-27-54-Z.jpg">
+
+  <h3>Cauliflower</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹34 per kg<span>₹68 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-29-38-images.jpg">
+
+  <h3>Ladies finger</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹15 per kg<span>₹30 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-30-28-Z.jpg">
+
+  <h3>Bitter gaurd</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹21<span>₹42 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-35-24-Z.jpg">
+
+  <h3>Brinjal</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹12 per kg<span>₹24 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-31-37-images.jpg">
+
+  <h3>Bootel gaurd</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹5 per kg<span>₹10 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-34-49-2Q==.jpg">
+
+  <h3>Green chilli</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹24 per kg<span>₹48 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="22-42-35-9k=.jpg">
+
+  <h3>Onions</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹22 per kg<span>₹44 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="product-1.png">
+
+  <h3>Organic Banana</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹15<span>₹30</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/dozen</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="product-3.png">
+
+  <h3>Organic Orange</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹20<span>₹40</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="product-4.png">
+
+  <h3>Natural Milk</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹11<span>₹22</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="product-5.png">
+
+  <h3>Organic Grapes</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹40 per kg<span>₹80 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="product-6.png">
+
+  <h3>Natural Almonds</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹50<span>₹100</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-34-29-images.jpg">
+
+  <h3>Oil</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹120 per lit<span>₹240 per lit</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/lit</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-36-06-Z.jpg">
+
+  <h3>Aashirvaad wheat</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹75 per kg<span>₹150 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-36-47-images.jpg">
+
+  <h3>Aashirvaad salt</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹18 per kg<span>₹36 per kg </span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-40-25-images.jpg">
+
+  <h3>Biryani Rice</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹37 per kg<span>₹74 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-49-02-images.jpg">
+
+  <h3>Chilli powder</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹32 per kg<span>₹64 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-52-58-2Q==.jpg">
+
+  <h3>Turemeric powder</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹41<span>₹82</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/grm</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-56-53-9k=.jpg">
+
+  <h3>Rasam powder</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹14<span>₹28</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/grm</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-57-21-images.jpg">
+
+  <h3>Garam masala</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹9<span>₹18</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/grm</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-57-36-images.jpg">
+
+  <h3>Coriander powder</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹11<span>₹22</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/grm</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="19-58-49-images.jpg">
+
+  <h3>Sambar powder</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹14<span>₹28</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/grm</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-16-13-9k=.jpg">
+
+  <h3>Sugar</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹40<span>₹80</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-17-38-images.jpg">
+
+  <h3>Tea powder</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹60<span>₹120</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/grm</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  <div class="box">
+
+  <span class="discount">50%</span>
+
+  <div class="icons">
+
+  <a href="#" class="fa fa-heart"></a>
+
+  <a href="#" class="fa fa-share"></a>
+
+  <a href="#" class="fa fa-eye"></a>
+
+  </div>
+
+  <img src="20-02-25-images.jpg">
+
+  <h3>Detergent powder</h3>
+
+  <div class="stars">
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star"></i>
+
+  <i class="fa fa-star-half-act"></i>
+
+  </div>
+
+  <div class="price">₹90 per kg<span>₹180 per kg</span></div>
+
+  <div class="quantity">
+
+  <span>Quantity:</span>
+
+  <input type="number" min="1" max="1000" value="1">
+
+  <span>/kg</span>
+
+  </div>
+
+  <a href="#" class="btn">Add to cart</a>
+
+  </div>
+
+  
+
+  
+
+  
+
+  </div>
+
+  </section>
+
+  <!---product section end--->
+
+  <!---deal section starts--->
+
+  <section class="deal" id="deal">
+
+  <div class="content">
+
+  <h1 class="title">Deal Of The Day</h1>
+
+  <p>Lorem</p>
+
+  <div class="count-down">
+
+  <div class="box">
+
+  <h3 id="day">00</h3>
+
+  <span>day</span>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <h3 id="hour">00</h3>
+
+  <span>hour</span>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <h3 id="minute">00</h3>
+
+  <span>minute</span>
+
+  </div>
+
+  
+
+  <div class="box">
+
+  <h3 id="second">00</h3>
+
+  <span>second</span>
+
+  </div>
+
+  </div>
+
+  <a href="#" class="btn">Check the deal</a>
+
+  </div>
+
+</section>
+
+  <!---deal section end--->
+
+<!---contact section starts--->
+
+<section class="contact" id="contact">
+
+<h1 class="heading" style="background-color:#000000"><span>Contact Us </span></h1>
+
+<form action="">
+
+<div class="inputBox">
+
+<input type="text" placeholder="name">
+
+<input type="email" placeholder="email">
+
+</div>
+
+<div class="inputBox">
+
+<input type="number" placeholder="number">
+
+<input type="text" placeholder="subject">
+
+</div>
+
+<textarea placeholder="message" name="" id="" cols="31" rows="11"></textarea>
+
+<input type="submit" value="send message" class="btn">
+
+</form>
+
+</section>
+
+<!---contact section end--->
+
+ <!---newsletter section starts--->
+
+ <section class="newsletter">
+
+ <h3>Subscribe us for latest updates</h3>
+
+ <form action="">
+
+ <input type="box" placeholder="enter your email"><br>
+
+ <input type="submit" value="subscribe" class="btn">
+
+ </form>
+
+ </section>
+
+ <!---newsletter section end--->
+
+ <!---footer section starts--->
+
+ <section class="footer">
+
+ <div class="box-container">
+
+ <div class="box">
+
+ <a href="#" class="logo"><i class="fa fa-shopping-basket"></i>groco</a>
+
+ <div class="share">
+
+ <a href="#" class="btn fa fa-facebook"></a>
+
+ <a href="#" class="btn fa fa-twitter"></a>
+
+ <a href="#" class="btn fa fa-instagram"></a>
+
+ <a href="#" class="btn fa fa-linkedin"></a>
+
+ </div>
+
+ </div>
+
+ 
+
+ <div class="box">
+
+ <h3>Our location</h3>
+
+ <div class="links">
+
+ <a href="#">India</a>
+
+ <a href="#">USA</a>
+
+ <a href="#">France</a>
+
+ <a href="#">Japan</a>
+
+ <a href="#">Russia</a>
+
+ </div>
+
+ </div>
+
+ 
+
+ <div class="box">
+
+ <h3>Quick links</h3>
+
+ <div class="links">
+
+ <a href="#">Home</a>
+
+ <a href="#">Category</a>
+
+ <a href="#">Product</a>
+
+ <a href="#">deal</a>
+
+ <a href="#">Contact</a>
+
+ </div>
+
+ </div>
+
+ 
+
+ 
+
+ <div class="box">
+
+ <h3>Download app</h3>
+
+ <div class="links">
+
+ <a href="#">Google play</a>
+
+ <a href="#">Window xp</a>
+
+ <a href="#">App store</a>
+
+ </div>
+
+ </div>
+
+ </div>
+
+ 
+
+ 
+
+ </section>
+
+ <!---footer section end--->
+
+  
+
+  
+
+  
+
+  
+
+  <script src="index.js"></script>
+
+  
+
+  
+
+  
+
+  </body>
+
+  </html>
